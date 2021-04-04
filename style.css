@@ -1,0 +1,38 @@
+@font-face {
+  font-family:"Monument Extended";
+  src: url("MonumentExtended-Regular.otf") format("truetype");
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.svg {
+    display: flex;
+    height: 768px;
+    width: 1366px;
+}
+
+.edit {
+    display: flex;
+    margin: auto;
+}
+
+.textbox {
+    resize: none;
+}
